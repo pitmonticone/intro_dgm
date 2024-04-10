@@ -2,7 +2,7 @@
 
 This repository contains examples of deep generative models for the book <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>:
 1. Mixture of Gaussians (MoGs): a mixture of Gaussians 
-2. Autoregressive Models (ARMs): ARMs parameterized with Causal Convolutionas and Transformers
+2. Autoregressive Models (ARMs): ARMs parameterized with Causal Convolutions and Transformers
 3. Flow-based models (flows): RealNVP and IDFs (Integer Discrete Flows)
 4. Variational Auto-Encoders (VAEs): a plain VAE and various priors, a hierarchical VAE
 5. Diffusion-based Deep Generative Models (DDGMs): a Gaussian forward diffusion
@@ -27,10 +27,10 @@ In all examples, we used:
 # Examples
 All examples of implemented deep generative models are provided as jupyter notebooks. They can be find in the following folders:
 1. `mog`: an example of a mixture of Gaussians with equiprobable components or trainable component probabilities. 
-2. `arms`: an example of an autoregressive model with a causal convolutiona layer in 1D and transformers.
+2. `arms`: an example of an autoregressive model with a causal convolutional layer in 1D and transformers.
 3. `flows`: an example of a flow-based model, namely, RealNVP with coupling layers and permutation layers, and IDFs (Integer Discrete Flows).
 4. `vaes`: (i) an example of a Variational Auto-Encoder using fully-connected layers and a standard Gaussian prior, (ii) an example of various priors for VAEs, (iii) an example of a hierarchical VAE.
-5. `ddgms`: an example of a Diffusion-based Deep Generative Model using a Gaussian forward diffusion with a fixed variace and a reverse diffusion parameterized by an MLP.
+5. `ddgms`: an example of a Diffusion-based Deep Generative Model using a Gaussian forward diffusion with a fixed variance and a reverse diffusion parameterized by an MLP.
 6. `sbgms`: (i) an example of a score model using the score matching method and an MLP-based score model, (ii) an example of an SDE-based diffusion model parameterized by an MLP, (iii) an example of a conditional flow matching model parameterized by an MLP.
 7. `hybrid_modeling`: an example of a hybrid model using fully-connected layers and IDFs.
 8. `ebms`: an example of an energy-based model parameterized by an MLP.
